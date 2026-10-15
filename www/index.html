@@ -150,6 +150,11 @@
 
 
     // 変数宣言
+    var active = false;
+    var startTime = 0;
+    var period = 0;
+    var rest = 0;　
+    var etime = 0;
 
 
     
@@ -174,18 +179,21 @@
         var audio = new Audio();
         audio.src = "pin.wav";　
         audio.play();
+
+
         
     }
     
     // ButtonAがクリックされた時の処理
     function btnAClick(e){
-        
+        active = true;
+        startTime = new Date(); 
         
     }
 
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
-        
+        active = false;
         
     }
 
