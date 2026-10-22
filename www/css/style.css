@@ -9,6 +9,10 @@ button{
     font-family: 'Times New Roman', Times, serif;
     border-radius: 20px;
 }
+
+#btnA{
+    background-color: yellow;
+}
     #minuteStr {
         color: #ff0000;
         font-size: 20px;
